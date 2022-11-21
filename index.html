@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lashed By Emi</title>
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="js icon" href="./images/lashed-by-emi.jpg.jpg">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="bg-emerald-200 relative">
+    <div id="menu" class="h-[1.6em] w-[3em] text-center rounded-md bg-white border-[.1em] shadow-lg border-black fixed overflow-hidden left-[2%] top-[10%] hover:h-[5em] hover:w-[5em] transition-all delay-400 ">
+        <p class="text-black underline">Menu</p>
+        <a href="#gallery" >Gallery</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <header class="h-[3em] w-[100%] bg-white grid justify-center">
+        <div class="grid grid-cols-2 justify-center align-middle m-[.5em]">
+            <a class="no-underline hover:translate-y-[-5px] transition-all delay-400" href="#gallery">Gallery</a>
+            <a class="no-underline hover:translate-y-[-5px] transition-all delay-400" href="#appointment">Request Appointment</a>
+        </div>
+    </header>
+    <section id="heroCont" class="h-[30em] w-[100%] mt-20 flex justify-center">
+        <div class="bg-white h-[100%] w-[70%] text-center pt-[7em] pl-[2em] pr-[2em] shadow-2xl break-words grid justify-around ">
+            <h1 id="heroText" class="text-black text-6xl font-bold leading-normal">Fill Out The Contact Form Below To Be <em id="lashedText" class="underline text-7xl text-emerald-400 hover:text-emerald-700 transition-all delay-400">Lashed</em> By Em!</h3>
+            <div> 
+                <a href="#contact" class="rounded-md  bg-emerald-300 p-[1em] text-center shadow-md hover:shadow-lg  hover:text-white transition-all delay-400 font-bold ">Contact Form</a>
+            </div>
+        </div>
+    </section>s
+    <section id="gallery" class="bg-white  w-[100%]">
+        <div class="grid justify-center">
+            <h1 class="mt-5 rounded-md  bg-emerald-300 p-[1em] text-center shadow-md hover:shadow-lg  hover:text-white transition-all delay-400 font-bold  ">Gallery</h1>
+        </div>
+        <div id="gallery" class="h-[100%] w-[100%] bg-white overflow-hidden grid justify-center ">
+            <img src="./images/lashed-1.png" class="h-[30vh] w-[70%] bg-emerald-300 p-[1vw] pb-[5vw] rounded-lg"></oimg>
+            <img src="./images/lashed-2.png" class="h-[30vh] w-[70%] bg-emerald-300 p-[1vw] pb-[5vw] rounded-lg"></img>
+            <img src="./images/lashed-3.png" class="h-[30vh] w-[70%] bg-emerald-300 p-[1vw] pb-[5vw] rounded-lg"></img>
+        </div>
+    </section>
+    <section class="bg-white" >
+        <div class="grid justify-center "> 
+            <h1 class="rounded-md mt-20  bg-emerald-300 p-[1em] text-center shadow-md hover:shadow-lg  hover:text-white transition-all delay-400 font-bold">Contact Me</h1>
+        </div>
+        <div class="bg-white h-[60vh] w-[100%] grid justify-center gap-10">
+            <form id="contact" class="mt-10 bg-emerald-300 grid grid-cols-1 justify-center p-10 rounded-md">
+                <label class="text-white font-bold">First Name:</label>
+                <input type="text" required class="p-2 rounded-md text-emerald-700">
+                <label class="text-white font-bold">Last Name:</label>
+                <input type="text" required class="p-2 rounded-md text-emerald-700">
+                <label class="text-white font-bold">Email:</label>
+                <input type="email" required class="p-2 rounded-md text-emerald-700">
+                <label class="text-white font-bold">Instagram @:</label>
+                <input type="text" required class="p-2 rounded-md text-emerald-700">
+                <label class="text-white font-bold">Phone #:</label>
+                <input type="number" optional class="p-2 rounded-md text-emerald-700">
+                <label class="text-white font-bold">Leave A Message</label>
+                <textarea class="resize-y "></textarea>
+            </form>
+        </div>
+    </section>
+   
+</body>
+</html>

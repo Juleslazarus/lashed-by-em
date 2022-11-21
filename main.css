@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans&family=Xanh+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans' sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  z-index: -2;
+}
+
+#lashedText {
+  font-family: 'Great Vibes', cursive;
+  font-weight: 900;
+  padding: .3em;
+  position: relative;
+}
+
+#gallery {
+  grid-template-columns: repeat(3, auto);
+  gap: 1em;
+}
+
+#gallery img {
+  margin-top: 10vh;
+  height: auto;
+  width: 30vw;
+}
+
+@media all and (max-width: 900px) {
+  #heroText {
+    font-size: 4vh;
+  }
+  #gallery {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+  }
+  #gallery img {
+    height: auto;
+    width: 70vw;
+  }
+  #menu {
+    display: none;
+  }
+}
